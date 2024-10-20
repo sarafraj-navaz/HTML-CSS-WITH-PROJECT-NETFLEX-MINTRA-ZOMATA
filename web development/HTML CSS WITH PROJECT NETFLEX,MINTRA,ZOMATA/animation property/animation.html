@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+        }
+        .container {
+            position: relative;
+            top: 200px;
+            left: 200px;
+            background-color: red;
+            border: 3px solid red;
+            height: 386px;
+            width: 376px;
+            padding: 50px;
+            /* height: 100px; */
+            margin: 50px;
+            transition: all 0.2s;
+
+        }
+        .container:hover {
+            transform:translate(10.1);
+            /* transform:scale(2.1); */
+            background-color: aqua;
+            border-radius: 20px;
+            border: 10px double brown;
+        }
+        .image1 {
+            background-image: url("image/raj.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 10px dotted aqua;
+            margin-bottom: 40px;
+            width: 80%;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image1"></div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In aspernatur magnam nostrum accusantium quaerat
+            provident ea. Molestiae id quisquam qui assumenda, ad rerum ipsum, in tempora odit unde dolorum ex hic
+            consequatur sed at deserunt optio aliquid velit fuga alias!
+    </div>
+</body>
+
+</html>

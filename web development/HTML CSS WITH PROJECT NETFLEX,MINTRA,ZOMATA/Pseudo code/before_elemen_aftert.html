@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container::before {
+            content: "i am Before word using before properties";
+            display: inline;
+            background-color: aqua;
+        }
+
+        .container::after {
+            content: "i am after word using before properties";
+            display: inline;
+            background-color: aqua;
+        }
+        /* div::first-line{
+            background-color: yellow;
+        } */
+        .para::first-letter{
+            background-color: yellow;
+            color: red;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        chombu play
+    </div>
+    <div class="para">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nesciunt doloremque nostrum maxime eos excepturi
+        architecto qui magnam dolorem necessitatibus.
+    </div>
+</body>
+
+</html>

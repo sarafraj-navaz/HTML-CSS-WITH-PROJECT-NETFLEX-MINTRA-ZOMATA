@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- i can provide multiple link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+        /* tag way to targate div */
+        /* div {
+            font-size: 10px;
+            font-family: 'Bungee Spice', cursive;
+        } */
+        /* class way to targate my parament */
+        .container {
+            font: 30px;
+            font-family: 'Bungee Spice', cursive;
+            background-color: aqua;
+
+        }
+            /* i am using paragra inside div so at first write div tag then
+            i have use dessendent selector(space) then after that i i targate 
+            my tag */
+        div p {
+            /* i also use this by this import link inside style tag then 
+            after that i can use way */
+            font-size: 15px;
+            /* i can write multiple property of value whenever ist one is not
+            work then 2nd one is work whenever
+            3rd one is not work further property run all property in not then 
+            defualt property will run */
+            font-family: 'Bungee Spice', cursive;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto maiores error possimus quam repellat. Autem
+        eveniet saepe dignissimos obcaecati similique, incidunt excepturi magni architecto asperiores aperiam totam
+        tempora aspernatur maxime.
+    </div>
+    <div>
+        <p class="contai">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aperiam quibusdam nemo eos
+            inventore. Natus ipsa alias est eos tenetur optio possimus?</p>
+    </div>
+</body>
+
+</html>

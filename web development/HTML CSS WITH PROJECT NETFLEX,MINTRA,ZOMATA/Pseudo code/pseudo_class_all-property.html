@@ -1,0 +1,181 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <style>
+        /* all using tag method */
+        a:link {
+            color: red;
+        }
+
+        a:visited {
+            color: aqua;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+         /* also this way  */
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+         div :hover {
+            color: red;
+            background-color: aqua;
+            font-size: 25px;
+            font-family: 'Bungee Spice', cursive;
+        }
+        .container :hover {
+            color: red;
+            background-color: aqua;
+            font-size: 25px;
+            font-family:'Bungee Spice', cursive;
+        }
+        .contain :hover {
+            color: red;
+            background-color: aqua;
+            font-size: 25px;
+            font-family: 'Bungee Spice', cursive;
+        }
+        .can :first-child{
+            background-color: red;
+        }
+        .can :last-child{
+            background-color: brown;
+            color: aqua;
+        }
+        .nthchild :nth-child(even){
+            background-color: yellow;
+            color: springgreen;
+            font-size: 25px;
+        }
+        .type :first-of-type{
+            background-color: brown;
+            color: gold;
+            font-size: 20px;
+            font-family: "bungee spice",cursive;
+        }
+        .type :last-of-type{
+            background-color: rgb(42, 165, 161);
+            color: rgb(255, 0, 217);
+            font-size: 20px;
+            font-family: "bungee spice",cursive;
+        }
+        .nth_of_type :nth-last-of-type(even){
+            background-color: red;
+            color: rgb(34, 228, 86);
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://www.google.com">google</a>
+    <br>
+    <a href="https://www.yahoo.com">yahoo</a>
+    <br>
+    <a href="1409css1.html">ss</a>
+     <fieldset>
+        <caption>using first time</caption>
+        <div class="container">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat accusantium voluptatum ex eaque
+                consequatur ullam nihil, atque est nisi in!
+            </p>
+        </div>
+     </fieldset>
+    <fieldset>
+        <caption>
+            hover all work
+        </caption>
+        <div class="contain">
+            <p>ist one child</p>
+            <p>2nd one child</p>
+            <p>3rd one child</p>
+            <span>4th one child</span>
+            <p>5th one child</p>
+            <p>6th one child</p>
+            <p>7th one child</p>
+            <span>8th one child</span>
+            <br>
+            <span>9th one child</span>
+        </div>
+    </fieldset>
+    <div class="can">
+        <p>ist one child</p>
+        <p>2nd one child</p>
+
+        <p>3rd one child</p>
+        <span>4th one child</span>
+        <br>
+        <span>5th one child</span>
+        <p>6th one child</p>
+        <p>7th one child</p>
+        <span>8th one child</span>
+        <br>
+        <span>9th one child</span>
+    </div> 
+    <fieldset>
+        <caption>
+            <h1>nth-child property use type of pseudo class(:)</h1>
+        </caption>
+        <div class="nthchild">
+            <p>ist one nthchild</p>
+            <p>2nd one nthchild</p>
+            <p>3rd one nthchild</p>
+            <br>
+            <span>4th one nthchild</span>
+            <br>
+            <span>5th one nthchild</span>
+            <br>
+            <h1>6th one nthchild</h1>
+            <h1>7th one nthchild</h1>
+            <p>8th one nthchild</p>
+            <p>last one nthchild</p>
+        </div>
+    </fieldset>
+    <fieldset>
+        <caption>
+            first-of-type property use 
+        </caption>
+        <div class="type">
+            <p>ist one child</p>
+            <p>2nd one child</p>
+            <p>3rd one child</p>
+            <span>4th one child</span>
+            <p>5th one child</p>
+            <p>6th one child</p>
+            <p>7th one child</p>
+            <span>8th one child</span>
+            <br>
+            <span>9th one child</span>
+        </div>
+        <fieldset>
+            <caption>
+                <h1>nth-of-type property use type of pseudo class(:)</h1>
+            </caption>
+            <div class="nth_of_type">
+                <p>ist one  nth-of-type property use 1</p>
+                <p>2nd one  nth-of-type property use 2</p>
+                <p>3rd one  nth-of-type property use 3</p>
+                <br>
+                <span>4th one  nth-of-type property use 1</span>
+                <br>
+                <span>5th one  nth-of-type property use 2</span>
+                <br>
+                <h1>6th one nth-of-type property use 1</h1>
+                <h1>7th one  nth-of-type property use 2</h1>
+                <p>8th one  nth-of-type property use 4</p>
+                <p>last one nth-of-type property use 5</p>
+            </div>
+        </fieldset>
+</body>
+ </html>

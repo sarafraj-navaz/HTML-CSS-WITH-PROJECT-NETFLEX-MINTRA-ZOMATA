@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: tahoma;
+            font-size: 50px;
+        }
+        div{
+            border-radius: 10px;
+            /* background-color: aqua; */
+        }
+        .box{
+            position:relative;
+            border: 4px solid red;
+            width: 500px;
+            height: 500px;
+            top: 100px;
+            left: 100px;
+        }
+        .one{
+            background-color: aqua;
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            top: 10px;
+            left:10px;
+            z-index: 1;
+
+        }
+        div.two{
+            background-color: yellow;
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            top: 60px;
+            left:60px;
+            z-index: 2;
+        }
+        div.three{
+            background-color: brown;
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            top: 110px;
+            left:110px;
+            z-index: 3;
+        }
+        div.four{
+            background-color: red;
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            top: 160px;
+            left:160px;
+            z-index: 4;
+        }
+        div.box1{
+            position:relative;
+            border: 4px solid red;
+            width: 500px;
+            height: 500px;
+            top: 100px;
+            left: 100px;
+        }
+        div.five{
+            background-color: aqua;
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            top: 10px;
+            left:10px;
+            z-index: 4;
+
+        }
+        div.six{
+            background-color: yellow;
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            top: 60px;
+            left:60px;
+            z-index: 3;
+        }
+        div.seven{
+            background-color: brown;
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            top: 110px;
+            left:110px;
+            z-index: 2;
+        }
+        div.eight{
+            background-color: red;
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            top: 160px;
+            left:160px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+    </div>
+    <div class="box1">
+        <div class="five">4</div>
+        <div class="six">3</div>
+        <div class="seven">2</div>
+        <div class="eight">1</div>
+    </div>
+</body>
+</html>

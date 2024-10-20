@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+        }
+        .container {
+            background-color: red;
+            border: 3px solid red;
+            height: 300px;
+            width: 300px;
+            padding: 50px;
+            /* height: 100px; */
+            margin: 50px;
+            transition: all 0.2s;
+            position: relative;
+            animation-name: box;
+            /* animation-delay: ; */
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            top: 50px;
+            left: 150px;
+
+        }
+       @keyframes box {
+        from{
+            /* transform: skew(0deg); */
+            background-color: aqua;
+            transform: skew(10deg);
+            /* background-image: url("image/nehal1.jpg"); */
+        }
+        to{
+            background-color: blue;
+            /* transform: skew(360deg.360deg); */
+            /* transform: skewX(70deg); */
+            /* transform: skew(50deg,30deg); */
+            transform: skew(360deg,360deg);
+            /* background-image: url("image/raj.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; */
+        }
+      
+       }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    </div>
+</body>
+
+</html>

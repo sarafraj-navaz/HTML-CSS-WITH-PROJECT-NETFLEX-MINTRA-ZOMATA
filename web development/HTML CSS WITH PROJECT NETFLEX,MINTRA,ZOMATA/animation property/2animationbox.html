@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+        }
+        .container {
+            background-color: red;
+            border: 3px solid brown;
+            height: 386px;
+            width: 376px;
+            padding: 50px;
+            /* height: 100px; */
+            margin: 20%;
+            transition: all 0.9s;
+            position: relative;
+            animation-name: box;
+            /* animation-delay: ; */
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+       @keyframes box {
+        30%{
+            transform: rotateX(10deg);
+            background-color: blue;
+        }
+        50%{
+            transform: rotateY(260deg);
+            background-color: aqua;
+        }
+        80%{
+            transform: rotateZ(360deg);
+            background-color: yellow;
+        }
+       
+        
+        /* 30%{
+            transform: rotate(360deg);
+        } */
+       }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    </div>
+</body>
+
+</html>

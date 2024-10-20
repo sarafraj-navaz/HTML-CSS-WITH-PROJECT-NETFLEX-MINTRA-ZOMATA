@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: blue;
+            display: inline-block;
+            color: white;
+            font-size: 18px;
+            padding: 10px 30px;
+        }
+        .container:hover {
+            background-color: rgb(175, 175, 199);
+        }
+        .model {
+            border: 2px solid red;
+            position: absolute;
+            padding: 20px 10px;
+            text-transform: capitalize;
+            left: 1%;
+            top: -200px;
+            transition-property: all;
+            transition-duration:3s;
+        }
+        .container:hover + .model {
+            top:200px
+        }
+    </style>
+</head>
+<body>
+    <div class="container">REGISTER</div>
+    <div class="model">
+        <form action="">
+            NAME<input type="text">
+            <br>
+            PASSWORD<input type="password">
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>

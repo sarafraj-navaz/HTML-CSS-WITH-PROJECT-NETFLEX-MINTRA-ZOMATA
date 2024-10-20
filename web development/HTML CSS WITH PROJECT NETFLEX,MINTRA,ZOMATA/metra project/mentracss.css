@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+header{
+    position: relative;
+    /* border: 2px solid red; */
+    padding: 10px 30px;
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.076);
+}
+.logo{
+    background-image: url("logo of mentra.jpg");
+    height: 93px;
+    width: 97px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    border: 2px solid aqua;
+}
+nav {
+    position: absolute;
+    /* border: 2px solid green; */
+    top: 35px ;
+    left: 175px;
+}
+nav ul {
+    /* border: 2px solid red; */
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 13px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    /* font-size: 19px; */
+    font-weight: bold;
+    padding: 15px 0px;
+    padding: 5px 10px;
+    border: 2px solid red;
+}
+nav ul li a:hover {
+    border-radius: 3px solid #ff4060;
+}
+header form {
+    /* border: 3px solid #b9b997a; */
+    border:3px solid;
+    position:absolute;
+    top:23px;
+    right:247px;
+    padding:5px 8px;
+}
+header form img {
+    width: 38px;
+    position: relative;
+    top:4px;
+}
+header form input {
+    width: 497px;
+    height: 34px;
+    margin-left: 10px;
+}
+.user-profile {
+    position: absolute;
+    right: 100px;
+    top: 24px;
+    border: 2px solid red;
+    padding: 22px;
+}
+.user-profile-menu {
+    border: 2px solid red;
+    width: 250px;
+    display: none;
+    position: absolute;
+    right: 31px;
+    top: 91px;
+    padding: 20px 0px;
+}
+.user-profile:hover + .user-profile-menu {
+    display: block;
+}
+.welcome-part {
+    border: 2px solid black;
+    padding: 10px 8px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.255;
+}
+.welcome-part :nth-child(1) {
+    font-weight: bold;
+}
+.welcome-part :last-child() {
+    background-color: transparent;
+    padding: 10px 15px ;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    color: #ff406b;
+    margin-top: 5px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .container {
+        position: relative;
+        background-color: red;
+        width: 300px;
+        /* height: 50px; */
+        padding: 50px;
+        margin: 200px;
+        transition: all 3s;
+        animation-name: box;
+        animation-duration: 1s;
+        
+    }
+
+    .container:hover {
+        /* transform: scale(2);"moves both directions x and y" */
+        /* transform: scaleX(2); */
+        /* transform: scaleY(3); */
+        background-color: yellow;
+        transform: scale(2);
+    }
+    /* img {
+        width: 20px;
+    } */
+    .img {
+        background-image: url("image/nehal1.jpg");
+        width: 80%;
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 50px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <!-- <img src="image/raj.jpg" alt=""> -->
+        <div class="img"></div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam laborum cum placeat. Est blanditiis nemo eaque
+        reprehenderit maiores alias culpa, eos hic rerum aut odio corporis, earum ipsa, autem accusantium! Eaque ullam
+        quos molestias, odit facilis eveniet magni laborum ipsa.
+
+    </div>
+</body>
+
+</html>

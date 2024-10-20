@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div::first-letter{
+            background-color: red;
+            color: aqua;
+            font-size: 45px;
+        } */
+        .container::first-letter {
+            background-color: red;
+            color: aqua;
+            font-size: 45px;
+        }
+
+        /* div p::first-line {
+            background-color: rgb(42, 165, 142);
+            color: blue;
+        } */
+        .first_line ::first-line {
+            background-color: red;
+            color: brown;
+        }
+        /* fieldset div::marker{
+            content:"👌";
+        } */
+        .selector ::selection{
+            background-color: red;
+            color: yellow;
+        }
+        ul li::marker{
+            content: "💕";
+        }
+        /* .markeruse ::marker{
+            content: "💕";
+        } */
+        .dil{
+            background-color:aqua;
+        }
+        .before::before{
+            content: "islam";
+            background-color: yellow;
+            display: inline;
+            font-size: 45px;
+        }
+        .before::after{
+            content:" Ali is shere khuda of the islam";
+            display: inline;
+            background-color: aqua;
+            font-size: 30px;
+        }
+        .box{
+            background-color: rgb(27, 97, 227);
+            color: cadetblue;
+            background-image: url("image/nehal.jpg");
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+    <span class="dil">💕💕💕💕💕💕</span>
+    <fieldset class="mark">
+        <caption></caption>
+        <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur error quam ipsum,
+            voluptate vel dolorum dolorem labore perferendis soluta minus corporis repellat officia quod harum
+            voluptates,
+            totam suscipit neque tempora.</div>
+    </fieldset>
+    <fieldset>
+        <caption></caption>
+        <div class="first_line">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestiae odit obcaecati illum quisquam
+                possimus iste rem totam, laboriosam dolorem voluptatibus quos corrupti facere incidunt non debitis
+                deleniti perspiciatis ipsam.</p>
+        </div>
+
+    </fieldset>
+    <fieldset>
+        <caption></caption>
+        <div class="selector">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem magni illum repellendus, iusto distinctio
+                deleniti aspernatur blanditiis iure nobis quo ipsum. Accusantium eligendi mollitia veniam repudiandae
+                suscipit corporis nulla error.</p>
+        </div>
+    </fieldset>
+    <fieldset>
+        <caption></caption>
+        <h1>food list</h1>
+        <ul class="markeruse">
+            <li>Ali</li>
+            <li>pasta</li>
+            <li>noodle</li>
+            <li>raj</li>
+            <li>rohan</li>
+            <li>ali</li>
+            <li>shaikh</li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <caption></caption>
+        <h1>food list</h1>
+        <ul class="before">
+            <li>shere khuda</li>
+            <li>pasta</li>
+            <li>noodle</li>
+            <li>raj</li>
+            <li>rohan</li>
+            <li>ali</li>
+            <li>shaikh</li>
+        </ul>
+    </fieldset>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 100px;
+           width: 400px;
+            background-color: rgb(215, 211, 211);
+            border-radius: 200px;
+            position: relative;
+            padding: 12px;
+        }
+
+        .loader {
+            background-color: red;
+            height: 100px;
+            width: 10%;
+            border-radius: 200px;
+            transition-property: all;
+            transition-duration: 5s;
+            /* transition-timing-function: ease; */
+            /* transition-timing-function: ease-in; */
+            /* transition-timing-function: ease-in-out; */
+            /* transition-timing-function: ease-out; */
+            /* transition-timing-function: linear; */
+
+        }
+        .container:hover .loader {
+            width:100%;
+            background-color: blue;
+            /* margin-left: 50%; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="loader"></div>
+        <h2>CHARGING............</h2>
+    </div>
+</body>
+</html>
